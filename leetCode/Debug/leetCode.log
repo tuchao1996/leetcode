@@ -1,6 +1,6 @@
 ﻿  main.cpp
-f:\cprogramming\training\leetcode\leetcode\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-f:\cprogramming\training\leetcode\leetcode\main.cpp(21): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
-f:\cprogramming\training\leetcode\leetcode\main.cpp(1173): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-f:\cprogramming\training\leetcode\leetcode\main.cpp(1720): warning C4018: “<”: 有符号/无符号不匹配
-  leetCode.vcxproj -> F:\CProgramming\Training\leetCode\Debug\leetCode.exe
+f:\githubrepository\leetcode\leetcode\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\githubrepository\leetcode\leetcode\main.cpp(21): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+f:\githubrepository\leetcode\leetcode\main.cpp(1173): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\githubrepository\leetcode\leetcode\main.cpp(1757): warning C4018: “<”: 有符号/无符号不匹配
+  leetCode.vcxproj -> F:\GitHubRepository\leetCode\Debug\leetCode.exe
