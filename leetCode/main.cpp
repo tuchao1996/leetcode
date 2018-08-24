@@ -12,6 +12,8 @@
 #include<queue>
 #include<map>
 #include<stack>
+#include "floodfill.h"
+#include "seach.h"
 using namespace std;
 #define test 0
 
@@ -22,6 +24,7 @@ void stopTimer(double sec) {
 }
 
 #endif
+
 //
 //class SolutiontwoSum {
 //public:
@@ -1791,37 +1794,134 @@ void stopTimer(double sec) {
 //	}
 //};
 
-class Solution {
-public:
-	int strangePrinter(string s) {
-		if (s.empty()) return 0;
-		vector<vector<int>> dp;
-		for (int i = 0; i < s.size(); i++) { vector<int> tmp(s.size(), 0); dp.push_back(tmp); }
-		for (int i = 0; i < s.size(); i++) {
-			dp[i][i] = 1;
-			if (i < s.size() - 1) dp[i][i + 1] = s[i] == s[i + 1] ? 1 : 2;
-		}
-		for (int len = 2; len < s.size(); len++) {
-			for (int start = 0; start + len < s.size(); start++) {
-				dp[start][start + len] = len + 1;
-				for (int k = 0; k < len; k++) {
-					int tmp = dp[start][start + k] + dp[start + k + 1][start + len];
-					dp[start][start + len] = min(
-						dp[start][start + len],
-						s[start + k] == s[start + len] ? tmp - 1 : tmp
-					);
-				}
-			}
-		}
-		return dp[0][s.size() - 1];
-	}
-};
+//class Solution {
+//public:
+//	int strangePrinter(string s) {
+//		if (s.empty()) return 0;
+//		vector<vector<int>> dp;
+//		for (int i = 0; i < s.size(); i++) { vector<int> tmp(s.size(), 0); dp.push_back(tmp); }
+//		for (int i = 0; i < s.size(); i++) {
+//			dp[i][i] = 1;
+//			if (i < s.size() - 1) dp[i][i + 1] = s[i] == s[i + 1] ? 1 : 2;
+//		}
+//		for (int len = 2; len < s.size(); len++) {
+//			for (int start = 0; start + len < s.size(); start++) {
+//				dp[start][start + len] = len + 1;
+//				for (int k = 0; k < len; k++) {
+//					int tmp = dp[start][start + k] + dp[start + k + 1][start + len];
+//					dp[start][start + len] = min(
+//						dp[start][start + len],
+//						s[start + k] == s[start + len] ? tmp - 1 : tmp
+//					);
+//				}
+//			}
+//		}
+//		return dp[0][s.size() - 1];
+//	}
+//};
+//
+//class Solution {
+//public:
+//
+//	int vecSum(vector<int> arr) {
+//		int ans = 0;
+//		for (int num : arr) ans += num;
+//		return ans;
+//	}
+//
+//	vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
+//		//if (A.size() < 1 || B.size() < 1) return { 0,0 };
+//		//vector<int> ans;
+//		//sort(A.begin(), A.end()); sort(B.begin(), B.end());
+//		//int diff = vecSum(A) - vecSum(B);
+//		//if (diff < 0) {
+//		//	for (int i = 0; i < A.size(); i++) {
+//		//		auto it = upper_bound(B.begin(), B.end(), A[i]);
+//		//		while (it != B.end()) {
+//		//			if (A[i] - *it == diff / 2) return { A[i], *it };
+//		//			else it++;
+//		//		}
+//		//	}
+//		//}
+//		//else {
+//		//	for (int i = 0; i < B.size(); i++) {
+//		//		auto it = upper_bound(A.begin(), A.end(), B[i]);
+//		//		while (it != A.end()) {
+//		//			if (*it - B[i] == diff / 2) return { *it, B[i] };
+//		//			else it++;
+//		//		}
+//		//	}
+//		//}
+//
+//		int sA = vecSum(A), sB = vecSum(B);
+//		for (int a : A) {
+//			for (int b : B) {
+//				if (b == a + (sB - sA) / 2) return { a,b };
+//			}
+//		}
+//		int diff = accumulate(A.begin(), A.end(), 0) - accumulate(B.begin(), B.end(), 0);
+//		diff /= 2;
+//		unordered_set<int> st(A.begin(), A.end());
+//		for (auto x : B)
+//		{
+//			if (st.count(x + diff))
+//			{
+//				return { x + diff, x };
+//			}
+//		}
+//		return {};
+//
+//	}
+//};
+
+//class Solution {
+//public:
+//	int search(vector<int>& nums, int target) {
+//		// 96%
+//		if (nums.size() < 1) return -1;
+//		else if (nums.size() == 1) return nums.back() == target ? 0 : -1;
+//		int low = 0, high = nums.size() - 1, mid = low + (high - low) / 2;
+//		while (low < high) {
+//			mid = low + (high - low) / 2;
+//			if (nums[mid] < nums[high]) high = mid;
+//			else if (nums[mid] > nums[high]) low = mid + 1;
+//		}
+//		//mid = low;
+//		//int low0 = 0, high0 = mid - 1;
+//		//int low1 = mid, high1 = nums.size() - 1;
+//		//while (low0 <= high0) {
+//		//	mid = low0 + (high0 - low0) / 2;
+//		//	if (nums[mid] > target) { high0 = mid - 1; }
+//		//	else if (nums[mid] < target) { low0 = mid + 1; }
+//		//	else return mid;
+//		//}
+//		//while (low1 <= high1) {
+//		//	mid = low1 + (high1 - low1) / 2;
+//		//	if (nums[mid] > target) { high1 = mid - 1; }
+//		//	else if (nums[mid] < target) { low1 = mid + 1; }
+//		//	else return mid;
+//		//}
+//		//return -1;
+//
+//		//((rot + (hi + rot)) / 2) % n ==> (rot + hi/2) % n ==> (rot + mid) % n;
+//		int rot = low;
+//		low = 0, high = nums.size() - 1;
+//		while (low <= high) {
+//			mid = low + (high - low) / 2;
+//			int realmid = (rot + mid) % nums.size();
+//			if (nums[realmid] < target) low = mid + 1;
+//			else if (nums[realmid] > target) high = mid - 1;
+//			else return realmid;
+//		}
+//		return -1;
+//	}
+//};
 
 int main() {
-	Solution s;
-	vector<int> nums = { 4,5,5,5,5,6,6,6 };
-	int ans = s.findShortestSubArray(nums);
-	cout << ans << endl;
+	vector<int> nums = { 2,3,4,5,0,1,2 };
+	int target = 3;
+	seach *s = new seach(nums, target);
+	cout << s->search() << endl;
 
 	system("pause");
 	return 0;

@@ -18,5 +18,19 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="floodfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seach.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="floodfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seach.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
