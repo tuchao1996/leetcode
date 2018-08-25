@@ -115,13 +115,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lcode20180811.cpp" />
+    <ClCompile Include="lcode20180812.cpp" />
+    <ClCompile Include="lcode20180813.cpp" />
+    <ClCompile Include="lcode20180814.cpp" />
+    <ClCompile Include="lcode20180816.cpp" />
+    <ClCompile Include="lcode20180817.cpp" />
+    <ClCompile Include="lcode20180821.cpp" />
+    <ClCompile Include="lcode20180822.cpp" />
+    <ClCompile Include="lcode20180823.cpp" />
+    <ClCompile Include="lcode20180824.cpp" />
+    <ClCompile Include="lcode20180825.cpp" />
     <ClCompile Include="floodfill.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="seach.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lcode20180811.h" />
+    <ClInclude Include="lcode20180812.h" />
+    <ClInclude Include="lcode20180813.h" />
+    <ClInclude Include="lcode20180814.h" />
+    <ClInclude Include="lcode20180816.h" />
+    <ClInclude Include="lcode20180817.h" />
+    <ClInclude Include="lcode20180821.h" />
+    <ClInclude Include="lcode20180822.h" />
+    <ClInclude Include="lcode20180823.h" />
+    <ClInclude Include="lcode20180824.h" />
+    <ClInclude Include="lcode20180825.h" />
     <ClInclude Include="floodfill.h" />
-    <ClInclude Include="seach.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,7 +21,37 @@
     <ClCompile Include="floodfill.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="seach.cpp">
+    <ClCompile Include="lcode20180825.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180824.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180823.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180822.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180821.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180817.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180816.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180814.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180813.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180812.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180811.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +59,37 @@
     <ClInclude Include="floodfill.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="seach.h">
+    <ClInclude Include="lcode20180825.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180824.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180823.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180822.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180821.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180817.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180816.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180814.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180813.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180812.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180811.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

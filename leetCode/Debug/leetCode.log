@@ -1,3 +1,7 @@
-﻿  seach.cpp
-f:\githubrepository\leetcode\leetcode\seach.cpp(6): warning C4018: “<”: 有符号/无符号不匹配
+﻿  lcode20180825.cpp
+f:\githubrepository\leetcode\leetcode\lcode20180825.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180825.cpp(37): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180825.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180825.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180825.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
   leetCode.vcxproj -> F:\GitHubRepository\leetCode\Debug\leetCode.exe
