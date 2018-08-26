@@ -13,7 +13,6 @@
 #include<map>
 #include<stack>
 #include "floodfill.h"
-#include "seach.h"
 #include "lcode20180825.h"
 
 using namespace std;
@@ -1090,10 +1089,12 @@ void stopTimer(double sec) {
 // };
 
 int main() {
-	vector<int> nums = { 4,3,2,7,8,2,3,1 };
-	lcode20180825 *s = new lcode20180825();
-	vector<int> ans = s->findDuplicates(nums);
-	for (int a : ans) cout << a << ' ';
+	//vector<int> nums = { 4,3,2,7,8,2,3,1 };
+	//lcode20180825 *s = new lcode20180825();
+	//vector<int> ans = s->findDuplicates(nums);
+	//for (int a : ans) cout << a << ' ';
+	bool flag = int(float(42) / -6) == float(42) / -6;
+	cout << flag << endl;
 
 	system("pause");
 	return 0;

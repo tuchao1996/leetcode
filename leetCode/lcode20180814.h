@@ -13,6 +13,11 @@ class constructArray_problem {
 	vector<int> constructArray(int n, int k);
 };
 
+class arrayPairSum_problem {
+	int arrayPairSum(vector<int>& nums);
+};
+
 class findMin_problem {
 	int findMin(vector<int>& nums);
 };
+

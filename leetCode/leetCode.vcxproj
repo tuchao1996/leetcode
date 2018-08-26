@@ -127,6 +127,7 @@
     <ClCompile Include="lcode20180824.cpp" />
     <ClCompile Include="lcode20180825.cpp" />
     <ClCompile Include="floodfill.cpp" />
+    <ClCompile Include="lcode20180826.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="lcode20180824.h" />
     <ClInclude Include="lcode20180825.h" />
     <ClInclude Include="floodfill.h" />
+    <ClInclude Include="lcode20180826.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

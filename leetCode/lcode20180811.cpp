@@ -1,6 +1,6 @@
 #include "lcode20180811.h"
 #include<map>
-
+#include<algorithm>
 
 lcode20180811::lcode20180811()
 {
