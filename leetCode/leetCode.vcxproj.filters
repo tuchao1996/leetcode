@@ -57,6 +57,18 @@
     <ClCompile Include="lcode20180826.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lcode20180828.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180829.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180831.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode20180902.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="floodfill.h">
@@ -96,6 +108,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lcode20180826.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180828.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180829.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180831.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180902.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -128,6 +128,10 @@
     <ClCompile Include="lcode20180825.cpp" />
     <ClCompile Include="floodfill.cpp" />
     <ClCompile Include="lcode20180826.cpp" />
+    <ClCompile Include="lcode20180828.cpp" />
+    <ClCompile Include="lcode20180829.cpp" />
+    <ClCompile Include="lcode20180831.cpp" />
+    <ClCompile Include="lcode20180902.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +148,10 @@
     <ClInclude Include="lcode20180825.h" />
     <ClInclude Include="floodfill.h" />
     <ClInclude Include="lcode20180826.h" />
+    <ClInclude Include="lcode20180828.h" />
+    <ClInclude Include="lcode20180829.h" />
+    <ClInclude Include="lcode20180831.h" />
+    <ClInclude Include="lcode20180902.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

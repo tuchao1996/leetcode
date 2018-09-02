@@ -14,6 +14,8 @@
 #include<stack>
 #include "floodfill.h"
 #include "lcode20180825.h"
+#include "lcode20180828.h"
+#include "lcode20180829.h"
 
 using namespace std;
 #define test 0
@@ -1089,12 +1091,13 @@ void stopTimer(double sec) {
 // };
 
 int main() {
-	//vector<int> nums = { 4,3,2,7,8,2,3,1 };
-	//lcode20180825 *s = new lcode20180825();
-	//vector<int> ans = s->findDuplicates(nums);
-	//for (int a : ans) cout << a << ' ';
-	bool flag = int(float(42) / -6) == float(42) / -6;
-	cout << flag << endl;
+	subsetsWithDup_problem *s = new subsetsWithDup_problem();
+	vector<int> A = {1,2,2};
+	vector<vector<int>> ans = s->subsetsWithDup(A);
+	for (int i = 0; i < ans.size(); i++) {
+		for (int j = 0; j < ans[i].size(); j++) cout << ans[i][j] << ' ';
+		cout << endl;
+	}
 
 	system("pause");
 	return 0;

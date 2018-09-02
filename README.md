@@ -31,4 +31,9 @@ LeetCode的网站说明如下：
 
 主要贡献者列表：
 
+希望能
+
 1. [ztchao1996](https://github.com/tuchao1996) wechatID：qq372520739 
+
+# 刷题思维导图mindmap
+![刷题](https://github.com/tuchao1996/leetcode/blob/master/leetcode.jpg)
