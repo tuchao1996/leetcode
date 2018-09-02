@@ -17,5 +17,13 @@ public:
 class maximumSwap_problem {
 public:
 	int maximumSwap(int num);
+	int maximumSwap2(int num);
+};
+
+class maxNumber_problem {
+public:
+	vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k);
+	vector<int> maxNumber(vector<int> nums, int k);
+	vector<int> maxNumber(vector<int> nums1, vector<int> nums2);
 };
 
