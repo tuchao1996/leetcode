@@ -72,6 +72,9 @@
     <ClCompile Include="lcode20180904.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lcode20180905.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="floodfill.h">
@@ -126,6 +129,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lcode20180904.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode20180905.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
