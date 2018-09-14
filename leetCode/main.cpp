@@ -12,10 +12,11 @@
 #include<queue>
 #include<map>
 #include<stack>
-#include "floodfill.h"
-#include "lcode20180825.h"
-#include "lcode20180828.h"
-#include "lcode20180829.h"
+//#include "floodfill.h"
+//#include "lcode20180825.h"
+//#include "lcode20180828.h"
+//#include "lcode20180829.h"
+#include "lcode20180914.h"
 
 using namespace std;
 #define test 0
@@ -1091,13 +1092,14 @@ void stopTimer(double sec) {
 // };
 
 int main() {
-	subsetsWithDup_problem *s = new subsetsWithDup_problem();
-	vector<int> A = {1,2,2};
-	vector<vector<int>> ans = s->subsetsWithDup(A);
-	for (int i = 0; i < ans.size(); i++) {
-		for (int j = 0; j < ans[i].size(); j++) cout << ans[i][j] << ' ';
-		cout << endl;
-	}
+	islandPerimeter_problem *s = new islandPerimeter_problem();
+	vector<vector<int>> A = { {1,1,0,0,0}, {1,1,0,0,0},{0,0,0,1,1},{0,0,0,1,1} };
+	int ans = s->islandPerimeter2(A);
+	cout << ans << endl;
+	//for (int i = 0; i < ans.size(); i++) {
+	//	for (int j = 0; j < ans[i].size(); j++) cout << ans[i][j] << ' ';
+	//	cout << endl;
+	//}
 
 	system("pause");
 	return 0;

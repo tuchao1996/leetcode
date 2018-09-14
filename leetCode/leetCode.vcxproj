@@ -135,6 +135,7 @@
     <ClCompile Include="lcode20180904.cpp" />
     <ClCompile Include="lcode20180905.cpp" />
     <ClCompile Include="lcode20180913.cpp" />
+    <ClCompile Include="lcode20180914.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +159,7 @@
     <ClInclude Include="lcode20180904.h" />
     <ClInclude Include="lcode20180905.h" />
     <ClInclude Include="lcode20180913.h" />
+    <ClInclude Include="lcode20180914.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

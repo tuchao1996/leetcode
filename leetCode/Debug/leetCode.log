@@ -1,10 +1,15 @@
-﻿  lcode20180829.cpp
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(19): warning C4018: “<”: 有符号/无符号不匹配
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(39): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(53): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
-f:\githubrepository\leetcode\leetcode\lcode20180829.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+﻿  lcode20180914.cpp
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(15): warning C4018: “>=”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(37): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(52): warning C4018: “>=”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(57): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+f:\githubrepository\leetcode\leetcode\lcode20180914.cpp(73): warning C4715: “islandPerimeter_problem::islandPerimeter2”: 不是所有的控件路径都返回值
   leetCode.vcxproj -> F:\GitHubRepository\leetCode\Debug\leetCode.exe
